@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en" data-lang="en" data-title-en="Breathe Well Legal" data-title-zh="好呼吸说明文档">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Breathe Well Legal</title>
+    <script>
+      (function () {
+        try {
+          var language = localStorage.getItem("breatheWellMinimalLegalLanguage") || "en";
+          document.documentElement.dataset.lang = language === "zh-Hans" ? "zh-Hans" : "en";
+          document.documentElement.lang = document.documentElement.dataset.lang;
+        } catch (_) {}
+      })();
+    </script>
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="topbar-inner">
+        <a class="brand" href="./index.html">
+          <img src="./assets/app-logo.png" alt="">
+          <span><span lang="en">Breathe Well</span><span lang="zh-Hans">好呼吸</span></span>
+        </a>
+        <nav class="nav" aria-label="Navigation">
+          <a href="./privacy.html"><span lang="en">Privacy</span><span lang="zh-Hans">隐私政策</span></a>
+          <a href="./terms.html"><span lang="en">Terms</span><span lang="zh-Hans">使用条款</span></a>
+          <a href="./subscription.html"><span lang="en">Renewal</span><span lang="zh-Hans">自动续费</span></a>
+          <button class="language-toggle" type="button" data-language-toggle>中文</button>
+        </nav>
+      </div>
+    </header>
+
+    <main class="page">
+      <article class="document">
+        <h1><span lang="en">Breathe Well Legal Documents</span><span lang="zh-Hans">好呼吸说明文档</span></h1>
+        <p class="meta"><span lang="en">Effective date: May 27, 2026</span><span lang="zh-Hans">生效日期：2026 年 5 月 27 日</span></p>
+        <p lang="en">Please read the following documents before using Breathe Well or purchasing Breathe Well Pro.</p>
+        <p lang="zh-Hans">请在使用好呼吸或购买好呼吸 Pro 前，阅读以下说明文档。</p>
+
+        <div class="doc-links">
+          <a class="doc-link" href="./privacy.html">
+            <strong><span lang="en">Privacy Policy</span><span lang="zh-Hans">隐私政策</span></strong>
+            <span lang="en">How the app handles information and permissions.</span>
+            <span lang="zh-Hans">关于本应用如何处理信息与系统权限。</span>
+          </a>
+          <a class="doc-link" href="./terms.html">
+            <strong><span lang="en">Terms of Use</span><span lang="zh-Hans">使用条款</span></strong>
+            <span lang="en">Rules for using the app and Pro features.</span>
+            <span lang="zh-Hans">关于使用本应用及 Pro 功能的规则。</span>
+          </a>
+          <a class="doc-link" href="./subscription.html">
+            <strong><span lang="en">Auto-Renewal Service Rules</span><span lang="zh-Hans">自动续费服务规则</span></strong>
+            <span lang="en">Rules for auto-renewable Breathe Well Pro subscriptions.</span>
+            <span lang="zh-Hans">关于好呼吸 Pro 自动续费订阅的规则。</span>
+          </a>
+        </div>
+      </article>
+    </main>
+
+    <footer class="footer">
+      <span>hi.superlifeos@gmail.com</span>
+    </footer>
+    <script src="./language.js" defer></script>
+  </body>
+</html>
